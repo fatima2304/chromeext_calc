@@ -1,0 +1,28 @@
+
+{
+   "manifest_version": 2,
+    "name":"calculator",
+    "version":"1.0",
+    "description":"calculator extension",
+    "icons":{
+        "128":"assets/images/icon128.png","48":"assets/images/icon48.png","16":"assets/images/icon16.png"},
+    
+    "browser_action":{
+        "default_icon": "assets/images/icon48.png",
+        "default_popup": "index.html"
+    },
+    
+    "content_scripts":
+    [
+        {
+            "js": [ "assets/js/popup.js" ],
+            "matches": [ "http://*/*", "https://*/*" ]
+        }
+    ],
+
+"content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self'",
+
+    "permissions":[
+        "storage","tabs","http://*/*"
+    ]  
+}
