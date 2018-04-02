@@ -1,11 +1,11 @@
 # chromeext_calc
 
-this is a popup calculator application which is made as a chrome extension , the popup also contains a link to contact me in social media platforms such as linkedin , facebook, google+ , and twitter .
+this is a popup calculator application which is developed as a chrome extension , the popup also contains links to contact me social media platforms such as linkedin , facebook, google+ and twitter .
 
-in order to use it , first clone this repository .
-then go to chrome://extensions (make sure the developer mode is on).
-then load unpacked and choose this popup folder.
-after successful uploading the icon will be displayed in the window tab .
-that's it enjoy calculating . 
+In order to use it , 
+1>First clone this repository .
+2>Then go to chrome://extensions (make sure the developer mode is on).
+3>Then load unpacked and select chromeext_calc.
+4>After successful uploading the icon will be displayed in the window tab .
 
-(this code was written for macos , it may vary from system to system )
+that's it, happy calculating . 
