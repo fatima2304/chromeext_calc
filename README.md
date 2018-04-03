@@ -1,6 +1,6 @@
 # chromeext_calc
 
-this is a popup calculator application which is developed as a chrome extension , the popup also contains links to contact me social media platforms such as linkedin , facebook, google+ and twitter .
+This is a popup calculator application which is developed as a chrome extension , the popup also contains links to contact me social media platforms such as linkedin , facebook, google+ and twitter .
 
 In order to use it , 
 1>First clone this repository .
